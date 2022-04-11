@@ -1,0 +1,12 @@
+[Unit]
+Description=radio
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+User=rutger
+ExecStart=/usr/bin/python3 /home/rutger/radio.py
+
+[Install]
+WantedBy=default.target
