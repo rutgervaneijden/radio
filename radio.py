@@ -1,7 +1,4 @@
-import json
-import requests
-import subprocess
-import time
+import json, requests, subprocess, time
 
 while True:
 
