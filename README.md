@@ -1,5 +1,5 @@
-`sudo nano /etc/systemd/system/radio.service`
+`sudo cp radio.service /etc/systemd/system/radio.service`
 
 `sudo systemctl daemon-reload`
 
-`systemctl enable radio`
+`sudo systemctl enable radio`
